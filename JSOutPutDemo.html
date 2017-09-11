@@ -2,17 +2,20 @@
 <html>
 
 <head>
-Data Reset
+Variable Use
 </head>
 <body>
+<p id="name"></p>
 
 <script> 
-function ResetData() {
-	window.alert("This is Alert Message");
-}
+	var a,b,c;
+	a="Deepak";
+	b="Sharma";
+	c = a+" "+ b;
+	document.getElementById("name").innerHTML=c;
 </script>
 
-<button type="button" onclick="ResetData()">Alert</button>
+
 
 </body>
 
