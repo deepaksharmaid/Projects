@@ -2,41 +2,23 @@
 <html>
 
 <head>
-Operators Use
+Object Use
 
 <script>
-/* Use Of Variable
-For Strings
-*/ function VarUse(){
-	var a,b,c;
-	a=1;
-	b=2;
-	c =a+b;
-	d = c*b;
-	e= d/c;
-	f= e%d;
-	g= f-e;
-	document.getElementById("add").innerHTML=c;
-	document.getElementById("Multi").innerHTML=d;
-	document.getElementById("Div").innerHTML=e;
-	document.getElementById("Mod").innerHTML=f;
-	document.getElementById("Subt").innerHTML=g;
+ function Object(){
+	var person = { name:"Deepak" , age : 21,address : "Jhotwara,Jaipur"};
+	
+	document.getElementById("Details").innerHTML = " Name: "+person.name 
+	+" Age: " +person.age + " Address: " +person.address;
 	}
 </script>
 </head>
 <body>
 
 
-<p id="name"></p>
+<p id="Details"></p>
 
-
-<p id="add"></p>
-<p id="Multi"></p>
-<p id="Div"></p>
-<p id="Mod"></p>
-<p id="Subt"></p>
-
-<button type="button" onclick="VarUse()"> Show </button> 
+<button type="button" onclick="Object()"> Show </button> 
 </body>
 
 </html>
