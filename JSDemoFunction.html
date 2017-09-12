@@ -7,8 +7,8 @@
 <p id="Text"> </p>
 <p id="demo"> </p>
 <script>
-var d = new Date();
-d.setFullYear(2017, 9, 12);
+var milisec= Date.parse("Oct 12,2017");
+var d = new Date(milisec);
 document.getElementById("demo").innerHTML = d;
 
 </script>
