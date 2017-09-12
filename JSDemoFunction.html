@@ -7,10 +7,11 @@
 <p id="Text"> </p>
 
 <script>
-function rtUse(){
-return 5;
+function rtUse(ItmNum,ItmName){
+	
+return ItmNum*3 + ItmName;
 }
-document.getElementById("Text").innerHTML=rtUse();
+document.getElementById("Text").innerHTML= "Item Details: "+ rtUse(4," Apple");
 </script>
 
 </body>
