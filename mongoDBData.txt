@@ -12,6 +12,8 @@ db.testDB.insert({title : "DemoTitle", Desc : "This is FirstDemo"})
 
 db.testDB.insert({title : "Demo2", Desc : "This is SecondDemo"})
 
+db.testDB.find({$and:[{"title" : "Demo2"}, {"Desc" : "This is SecondDemo"}]}).pretty()
+
 
 
 
