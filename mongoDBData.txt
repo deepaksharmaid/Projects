@@ -17,4 +17,5 @@ db.testDB.find({$and:[{"title" : "Demo2"}, {"Desc" : "This is SecondDemo"}]}).pr
 db.testDB.find({$and:[{"title" : "Demo2"}]}).pretty()
 
 
+db.testDB.find({$or:[{"title" : "Demo2"}]}).pretty()
 
