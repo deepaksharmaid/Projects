@@ -1,5 +1,7 @@
 use testDB
 
+db.createCollection("testDB")
+
 
 
 
