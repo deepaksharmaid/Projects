@@ -4,6 +4,8 @@ db.createCollection("testDB")
 
 show colletions
 
+db.tutorial.insert({"name" : "tutorial"})
+
 
 
 
