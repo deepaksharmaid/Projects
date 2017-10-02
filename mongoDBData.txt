@@ -6,6 +6,8 @@ show colletions
 
 db.tutorial.insert({"name" : "tutorial"})
 
+db.tutorial.drop()
+
 
 
 
