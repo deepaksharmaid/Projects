@@ -8,6 +8,8 @@ db.tutorial.insert({"name" : "tutorial"})
 
 db.tutorial.drop()
 
+db.testDB.insert({title : "DemoTitle", Desc : "This is FirstDemo"})
+
 
 
 
