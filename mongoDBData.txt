@@ -10,6 +10,8 @@ db.tutorial.drop()
 
 db.testDB.insert({title : "DemoTitle", Desc : "This is FirstDemo"})
 
+db.testDB.insert({title : "Demo2", Desc : "This is SecondDemo"})
+
 
 
 
